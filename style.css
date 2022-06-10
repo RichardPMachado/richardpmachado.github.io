@@ -5,8 +5,6 @@ body{
     background-color: #344E41;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
     font-size: 25px;
     
 }
@@ -54,6 +52,8 @@ p.descricao-resumida{
     text-align: center;
     font-size: 20px;
 }
+
+
 .centralizar-pagina{
     display: block;
     text-align: center;   
@@ -74,14 +74,39 @@ article{
 }
 h2{
     color: #2FC08D;
+    font-size: 60px;
+    text-align: center;
 }
 strong{
     color: blue;
 }
-.decricoes{
-    margin-bottom: 50px;
+
+.container-descricoes:nth-child(odd){
+    background-color: #0d4227;
+    padding: 100px 0px;
+}
+
+.decricoes:nth-child(odd){
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;    
+    margin: 0 auto;
+}
+
+.decricoes:nth-child(even){
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;    
+    margin: 0 auto;
 }
 
 em{
     color: #2FC08D;
 }
+
+footer{
+    background: #4D266C;
+    padding: 10px;
+}
+
+
